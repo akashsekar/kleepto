@@ -13,7 +13,7 @@ import ContactLocation from '../component/contact/ContactLocation';
 const Contact = () => {
     return (
         <>
-            <SEO title="Blog Grid" />
+            <SEO title="Contact" />
             <ColorSwitcher />
             <main className="main-wrapper">
                 <HeaderOne />
