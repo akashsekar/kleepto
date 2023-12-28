@@ -4,12 +4,12 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import ReactGA from "react-ga4";
 
-// ReactGA.initialize("G-F2151CLYFL");
+ReactGA.initialize("G-F2151CLYFL");
 // Send pageview with a custom path
-// ReactGA.send({ 
-//   hitType: "pageview",
-//   page: window.location.pathname, 
-//   });
+ReactGA.send({ 
+  hitType: "pageview",
+  page: window.location.pathname, 
+  });
 
 ReactDOM.render(
   <React.StrictMode>
