@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import Offcanvas from 'react-bootstrap/Offcanvas'
 import { FaFacebookF, FaLinkedinIn, FaBehance, FaPhone, FaFax, FaUnderline } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
-
+import { FaInstagram } from "react-icons/fa";
 
 const OffcanvasMenu = ({offcanvasShow, offcanvasHide}) => {
     return (
@@ -53,6 +53,7 @@ const OffcanvasMenu = ({offcanvasShow, offcanvasHide}) => {
 
                                         
                                         <li><a href="https://twitter.com/kleeptoofficial" target="_blank" rel="noopener noreferrer"><FaXTwitter /></a></li>
+                                        <li><a href="https://www.instagram.com/kleeptoofficial/"  target="_blank" rel="noopener noreferrer"><FaInstagram /></a></li>
 
                                         {/* <Link to="https://twitter.com/kleeptoofficial"><FaXTwitter /></Link> */}
                                         
